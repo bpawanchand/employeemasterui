@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './header/header';
-import { Home } from './home/home';
+import Home from './home/home';
+import Address from './address/address';
+import Communication from './communication/communication';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -13,7 +15,9 @@ export default class App extends React.Component {
       <Router>
         <Header />
         <Switch>
-          <Route exact to='/' component={Home} />
+          <Route exact path='/' component={Home} />
+          <Route path='/communication' component={Communication} />
+          <Route path='/address' component={Address} />
         </Switch>
       </Router>
     );
