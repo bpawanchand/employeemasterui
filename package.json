@@ -1,0 +1,19 @@
+{
+  "name": "employeemasterui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpawanchand/employeemasterui.git"
+  },
+  "author": "Pavan Bhamidipati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpawanchand/employeemasterui/issues"
+  },
+  "homepage": "https://github.com/bpawanchand/employeemasterui#readme"
+}
