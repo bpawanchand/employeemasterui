@@ -1,0 +1,16 @@
+---
+applications:
+  - name: pb-busisols-empui
+    stack: cflinuxfs3
+    memory: 512M
+    disk_quota: 512M
+    buildpacks:
+      - https://github.com/cloudfoundry/nodejs-buildpack.git
+    random-route: false
+    no-route: false
+    routes:
+      - route: pb-busisols.empui.cfapps.io
+    instances: 1
+    env:
+      AUTHOR: Pavan Bhamidipati
+    command: npm run build

@@ -4,6 +4,7 @@ import Header from './header/header';
 import Home from './home/home';
 import Address from './address/address';
 import Communication from './communication/communication';
+import Search from './search/search';
 
 export default class App extends React.Component {
   constructor(props) {
